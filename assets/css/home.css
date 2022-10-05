@@ -1,0 +1,442 @@
+/* Fonts */
+@font-face {
+  font-family: acumin;
+  src: url(../fonts/acumin.ttf);
+}
+@font-face {
+  font-family: acumin-thin;
+  src: url(../fonts/acumin-wide-thin.ttf);
+}
+@font-face {
+  font-family: acumin-bold;
+  src: url(../fonts/acumin.ttf);
+  font-style: wide bold;
+}
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f3;
+  font-family: acumin;
+}
+
+.vh {
+  height: 100vh;
+}
+
+.navLogoDiv {
+  padding-top: 59px;
+}
+
+.navLinks {
+  padding-top: 67px;
+}
+
+.servicesLink,
+.connectLink {
+  color: #000;
+  font-family: acumin-thin;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.servicesLink {
+  margin-right: 64px;
+}
+
+/* Hero Section */
+#Hero {
+  background: url(../media/home/hero/heroBg.svg);
+  background-size: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin-top: 57.77px;
+}
+
+.craftingDreams {
+  margin-top: 20%;
+}
+
+.createMroteDiv {
+  margin-top: 51px;
+}
+
+#createText {
+  transform: translateX(-2000px);
+  font-size: 150px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2c2c2d;
+  color: #f7f7f3;
+  font-weight: 382;
+}
+
+#mroteText {
+  transform: translateX(2000px);
+  font-size: 150px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2c2c2d;
+  color: #f7f7f3;
+  font-weight: 382;
+}
+
+.mrotionSubtext {
+  margin-top: 13.5%;
+}
+
+.mrotionSubtext2 {
+  margin-top: 7.7%;
+}
+
+#elipses {
+  margin-top: 23.5%;
+}
+
+circle {
+  fill: #f7f7f3;
+  transition: all 0.3s;
+}
+
+circle:hover {
+  fill: #000;
+  transition: all 0.3s;
+}
+
+/* Connect Section */
+#Connect {
+  margin-top: 13.5%;
+}
+
+.commitText,
+.connectText {
+  margin-top: 7%;
+}
+
+.connectText a {
+  text-decoration: none;
+  color: #2c2c2d;
+}
+
+.connectText b {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.connectText b:hover {
+  transition: all 0.3s;
+  color: #195194;
+}
+
+.connectPageLinkDiv {
+  margin-top: 20.1%;
+}
+
+.connectPageLink {
+  color: #2c2c2d;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: acumin-thin;
+}
+
+.connectPageLink:hover {
+  color: #2c2c2d;
+}
+
+.connectPageLink i {
+  margin-left: 2.2%;
+  position: relative;
+  transform: translateY(20px);
+}
+
+/* Services Section */
+#Services {
+  margin-top: 22.6%;
+  /* cursor: none; */
+}
+
+/* .cursor {
+	height: 40px;
+	width: 40px;
+	border: 3px solid #000;
+	border-radius: 50%;
+	position: absolute;
+	box-shadow: 2px -3px 41px -1px rgba(250, 250, 250, 0.64);
+	transition: all 0.1s linear;
+	pointer-events: none;
+	visibility: hidden;
+	z-index: 100;
+} */
+.servicesHeaders {
+  background: url(../media/services/servicesBg1.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 99%;
+  background-position: left;
+  /* height: 76.4vh; */
+}
+
+.servicesText {
+  margin-top: 5.1%;
+  font-size: 24px;
+  color: #f7f7f3;
+}
+
+.stepsText {
+  margin-top: 14.3%;
+  color: #f7f7f3;
+}
+
+.mroteText {
+  color: #f7f7f3;
+  font-size: 68px;
+  font-family: acumin-bold;
+  margin-top: 6.7%;
+}
+
+.mrotedText,
+.mrotionedText {
+  color: #f7f7f3;
+  font-size: 68px;
+  font-family: acumin-bold;
+  margin-top: 4.5%;
+}
+
+.designText {
+  margin-top: 80px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.devText,
+.brandingText,
+.marketingText {
+  font-size: 28px;
+  margin-top: 65px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.designBar,
+.devBar,
+.brandingBar,
+.marketingBar {
+  height: 10px;
+  width: 0%;
+  background-color: #195194;
+  border-radius: 10px;
+  transform: translateY(-15px);
+}
+
+#integration {
+  margin-top: 20.9%;
+}
+
+/* #Services svg {
+	color: #ffffff;
+	font-size: 150px;
+	letter-spacing: 10px;
+	position: relative;
+	display: block;
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+	-webkit-text-stroke: 2px #ffffff;
+	text-stroke: 2px #ffffff;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	color: transparent;
+	transition: all 0.4s linear;
+	opacity: 0.3;
+	user-select: none;
+
+	&:hover {
+		opacity: 1;
+		-webkit-text-fill-color: white;
+		text-fill-color: white;
+
+		~ .cursor {
+			transform: scale(1.4);
+			mix-blend-mode: difference;
+			background: white;
+		}
+	}
+}
+ */
+.frames {
+  margin-top: 15.4%;
+}
+
+.frms {
+  margin-top: 15.4%;
+}
+
+.mettup {
+  margin-top: 21.7%;
+}
+
+.digitalise {
+  margin-top: 20.2%;
+}
+
+.sec1 {
+  margin-top: 82.8%;
+}
+
+.sec2 {
+  margin-top: 40.3%;
+}
+
+.foote {
+  background-image: url(../media/home/frames/Union.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.rower {
+  margin-top: 27.6%;
+}
+
+.linksFoot {
+  text-decoration: none;
+  color: #f7f7f3;
+  transition: all 0.3s;
+}
+
+.linksFoot:hover {
+  color: #f7f7f3;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/* #createText {
+	height: cover;
+	width: cover;
+} */
+.designTextContent {
+  font-size: 32px;
+  margin-top: 80px;
+  margin-right: 60px;
+  vertical-align: middle;
+}
+
+.designTextContentBars {
+  font-size: 14px;
+}
+
+.text p {
+  font-size: 110px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  color: #f7f7f3;
+  line-height: 120px;
+}
+
+.digitalise {
+  text-align: right;
+}
+
+/* We are Section */
+.weAreText {
+  font-size: 48px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2c2c2d;
+  color: #f7f7f3;
+}
+
+/* Footer Section */
+#Footer {
+  background: url(../media/footerBg.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 28%;
+  padding: 100px 0px 28px 0px;
+}
+
+.imageFrameDiv {
+  padding-top: 35.9%;
+}
+
+.imgFrame {
+  width: 100%;
+  height: 100%;
+}
+
+.footerTextDiv {
+  padding-top: 35.3%;
+  color: #f7f7f3;
+}
+
+.footerText {
+  font-family: acumin;
+  font-style: italic;
+}
+
+.startQuotes,
+.endQuotes {
+  transform: translateY(-10px);
+  height: 30px;
+  width: 30px;
+}
+
+.ceoText {
+  margin-top: 15px;
+  font-family: acumin-thin;
+  font-size: 12px;
+}
+
+.scheduleCallText {
+  padding-top: 25.1%;
+  color: #f7f7f3;
+  font-size: 32px;
+  font-family: acumin-thin;
+}
+
+.callArrow {
+  padding-left: 30px;
+}
+
+.footerLogoDiv {
+  margin-top: 15.6%;
+}
+
+.footerLogo {
+  height: 100%;
+  width: 100%;
+}
+
+.emailContact,
+.numberContact,
+.contactUs {
+  margin-top: 32px;
+}
+
+.emailContactLink,
+.numberContactLink,
+.contactUsLink {
+  color: #f7f7f3;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: acumin-thin;
+}
+
+.footerIcons {
+  margin-top: 30px;
+}
+
+.footerIcons i {
+  color: #f7f7f3;
+  font-size: 25px;
+  padding-top: 100px;
+}
+
+.footerSubDiv {
+  padding-top: 5.7%;
+}
+
+.footerSub {
+  color: #f7f7f3;
+  font-size: 12px;
+  font-family: acumin-thin;
+}/*# sourceMappingURL=home.css.map */

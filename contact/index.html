@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Bootstrap 5 -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Bootstrap Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="../assets/css/contact.css" />
+		<title>Contact Us</title>
+	</head>
+	<body class="container-lg container-sm-none">
+		<div class="row logoDiv">
+			<div class="col-lg-5"></div>
+			<div class="col-lg-2 logo" onclick="window.open('../home/')">
+				<!-- Mrotion Logo Svg -->
+				<svg
+					width="100%"
+					height="100%"
+					viewBox="0 0 183 93"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M183 56.5311C180.047 55.9472 176.982 56.3006 174.245 57.5407C172.613 58.2316 171.04 59.0483 169.539 59.9832C164.97 62.5835 161.486 65.1669 158.921 66.9494C151.497 72.1219 149.384 74.1413 143.055 77.4805C131.49 83.5781 122.661 75.2243 118.925 70.1928C117.686 68.5006 115.276 64.7213 113.465 62.3297C107.137 53.9758 100.221 55.527 95.2693 62.3917C88.353 71.9809 83.8925 74.7223 78.324 74.2992C73.2981 73.9156 68.1352 69.9897 65.6051 58.6407C63.1606 47.6639 61.3902 36.5461 58.9229 25.5807C57.0782 17.3622 54.5766 8.16789 44.719 7.33871C34.8614 6.50953 31.2404 15.6587 29.053 23.0818C23.2389 42.7791 19.0526 63.7455 13.6269 83.5386C13.0558 85.6708 12.6446 87.8425 11.765 89.8788C11.4506 90.6373 10.9136 91.2856 10.223 91.7402C8.28116 92.8683 6.13944 92.9247 3.94061 92.9868H3.71787C3.0496 93.0112 2.3805 93.0018 1.71321 92.9586C1.22456 92.9497 0.741289 92.8561 0.2854 92.6822C0.0626606 92.575 -0.0972546 92.3889 0.0683719 92.1519C2.30594 88.9501 4.00683 85.4132 5.1057 81.6772C12.4504 55.6286 12.8102 51.4263 21.5598 21.0625C22.4459 17.7041 23.8419 14.4977 25.7005 11.5523C30.338 4.05584 36.4891 -1.1223 46.1411 0.208897C55.2506 1.44985 60.7848 7.54178 62.9608 15.4387C66.2276 27.2842 68.0095 37.2851 70.0199 49.4577C70.591 52.9492 71.8075 60.0791 73.4123 63.486C76.2337 69.4933 81.8707 70.362 87.2507 63.486C90.786 58.9735 95.0866 53.6148 100.107 52.1031C108.4 49.6438 114.796 54.7543 119.028 62.1605C129.308 80.064 137.704 77.7457 149.589 70.1646C156.603 65.6915 163.627 60.5754 171.212 57.4505C174.886 55.6954 179.093 55.3672 183 56.5311"
+						fill="#2C2D2D"
+					/>
+				</svg>
+			</div>
+			<div class="col-lg-5"></div>
+		</div>
+
+		<section id="Questions">
+			<div class="row">
+				<div class="col-lg-12 text-center connectText">Let's Connect</div>
+			</div>
+
+			<form action="../assets/php/contact.php" method="get">
+				<div class="row questionsDiv">
+					<div
+						class="col-lg-2 prevQuesArrowDiv d-flex align-items-center justify-content-center"
+					>
+						<i class="bi bi-arrow-left prevQuesArrow"></i>
+					</div>
+					<div class="col-lg-8">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-2 quesNo">1.</div>
+									<div class="col-lg-10 quesDiv">
+										<div class="row">
+											<div class="col-lg-12 ques">
+												What services are you looking for?
+											</div>
+											<div class="col-lg-12 quesSub">
+												Please select one or more options that will perfectly
+												fit to your business needs. These options will help us
+												to understand the current state of your business.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-12">
+								<div class="row optionsDiv">
+									<div class="imgContainer">
+										<div class="row">
+											<div
+												class="col-lg-2 text-center col-sm-12 col-md-4 my-sm-5 imgContainer1"
+											>
+												<img
+													src="../assets/media/contact/q1/identityImg.png"
+													alt=""
+													class="identityImg"
+													name="brandIdentity"
+												/>
+												<p>Brand Identity</p>
+											</div>
+											<div
+												class="col-lg-2 text-center col-sm-12 col-md-4 my-sm-5 imgContainer2"
+											>
+												<img
+													src="../assets/media/contact/q1/marketImg.png"
+													alt=""
+													class="identityImg"
+													name="mediaMarketing"
+												/>
+												<p>Media Marketing</p>
+											</div>
+											<div
+												class="col-lg-2 text-center col-sm-12 col-md-4 my-sm-5 imgContainer3"
+											>
+												<img
+													src="../assets/media/contact/q1/devImg.png"
+													alt=""
+													class="identityImg"
+													name="webDev"
+												/>
+												<p>Web Developement</p>
+											</div>
+											<div
+												class="col-lg-2 text-center col-sm-12 col-md-4 my-sm-5 imgContainer4"
+											>
+												<img
+													src="../assets/media/contact/q1/uxImg.png"
+													alt=""
+													class="identityImg"
+													name="uiUx"
+												/>
+												<p>UI UX</p>
+											</div>
+											<div
+												class="col-lg-2 text-center col-sm-12 col-md-4 my-sm-5 imgContainer5"
+											>
+												<img
+													src="../assets/media/contact/q1/consultImg.png"
+													alt=""
+													class="identityImg"
+													name="brandConsultation"
+												/>
+												<p>Brand Consultation</p>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="col-lg-1"></div>
+						<div class="col-lg-1 text-end">
+							<i class="bi bi-arrow-right nextQuesArrow"></i>
+						</div> -->
+									<div class="submitBtnDiv col-lg-12 text-center">
+										<button
+											type="submit"
+											class="submitBtn btn btn-outline-light"
+										>
+											Submit
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-lg-2 d-flex align-items-center justify-content-center nextQuesArrowDiv"
+					>
+						<i class="bi bi-arrow-right nextQuesArrow"></i>
+					</div>
+				</div>
+			</form>
+		</section>
+
+		<script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+		<script src="../assets/js/contact.js"></script>
+
+		<script></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
