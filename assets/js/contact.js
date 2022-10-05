@@ -106,6 +106,12 @@ function arrayDeletorForQ4(selected) {
 function q1() {
 	$(".prevQuesArrow").animate({ opacity: 0 });
 	/* $(".prevQuesArrow").css({ display: none }); */
+	$(
+		".imgContainer1, .imgContainer2, .imgContainer3, .imgContainer4, .imgContainer5"
+	).animate({ opacity: 0 });
+	$(".optionsDiv p").animate({ opacity: 0 });
+	$(".ques, .quesSub, .quesNo").animate({ opacity: 0 });
+
 	console.log("q1");
 	setTimeout(function () {
 		$(".imgContainer .row").removeClass("justify-content-center");
@@ -145,6 +151,8 @@ function q1() {
 		$(
 			".imgContainer1, .imgContainer2, .imgContainer3, .imgContainer4, .imgContainer5"
 		).css({ display: "block" });
+
+		$(".optionsDiv p").animate({ opacity: 1 });
 
 		$(".identityImg").click(function () {
 			if ($(this).hasClass("checked") == true) {
