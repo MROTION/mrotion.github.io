@@ -385,8 +385,7 @@ function q5() {
 	$(".ques, .quesSub, .quesNo").animate({ opacity: 0 });
 	$(".prevQuesArrow").animate({ opacity: 1 });
 	$(".nextQuesArrow").animate({ opacity: 0 });
-	$(".submitBtnDiv").css({ display: "block" });
-	$(".imgContainer5").css({ display: "none" });
+
 	setTimeout(function () {
 		$(".quesNo").html("5.");
 		$(".quesNo").animate({ opacity: 1 });
@@ -427,7 +426,7 @@ function q5() {
 		);
 
 		$(".imgContainer4").html(
-			'<p class="inputText">Link to your website(optional)</p><input type="text" class="websiteLink inputs" name ="webLink" required />'
+			'<p class="inputText">Link to your website(optional)</p><input type="url" class="websiteLink inputs" name ="webLink" required />'
 		);
 
 		$(".imgContainer1, .imgContainer2, .imgContainer3, .imgContainer4").animate(
@@ -440,7 +439,11 @@ function q5() {
 			display: "block",
 		});
 
+		$(".submitBtnDiv").css({ display: "block" });
+
 		$(".submitBtnDiv").animate({ opacity: 1 });
+
+		$(".imgContainer5").css({ display: "none" });
 
 		/* $(".imgContainer .row").append(
 			'<div class="col-lg-12 submitBtn text-center">Submit</div>'
@@ -449,6 +452,15 @@ function q5() {
 
 	console.log("q5");
 	return (q5Completed = true);
+}
+
+/* Responsiveness of Arrows */
+var width = $(window).width();
+if (width < 992) {
+	$(".nextQuesArrowDiv").prepend(
+		'<i class="bi bi-arrow-left prevQuesArrow"></i>'
+	);
+	$(".prevQuesArrowDiv").animate({ opacity: 0 });
 }
 
 $(".nextQuesArrow").click(function () {
