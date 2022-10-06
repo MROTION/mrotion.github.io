@@ -1,9 +1,14 @@
-import { gsap } from "https://cdn.skypack.dev/gsap";
-import { ScrollTrigger } from "https://cdn.skypack.dev/gsap/ScrollTrigger";
+/* Loader */
+/* $("header, main, footer").fadeOut(1000); */
+$(window).on("load", function () {
+	$(".loaderDiv").fadeOut(1000);
+	$("").fadeIn(1000);
+});
 
 gsap.registerPlugin(ScrollTrigger);
 
 /* Create, Text */
+
 gsap.to("#createText", {
 	scrollTrigger: {
 		trigger: "#Hero",
