@@ -139,6 +139,18 @@ body {
   font-weight: 382;
 }
 
+@media only screen and (max-width: 1400px) {
+  #createText,
+#mroteText {
+    font-size: 130px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #createText,
+#mroteText {
+    font-size: 100px;
+  }
+}
 .mrotionSubtext {
   margin-top: 13.5%;
 }
