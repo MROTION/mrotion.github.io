@@ -13,7 +13,7 @@
   font-style: wide bold;
 }
 body {
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden !important;
   margin: 0;
   padding: 0;
@@ -414,6 +414,11 @@ circle:hover {
   text-align: right;
 }
 
+@media only screen and (max-width: 576px) {
+  .text p {
+    font-size: 75px;
+  }
+}
 /* We are Section */
 .weAreText {
   font-size: 48px;
