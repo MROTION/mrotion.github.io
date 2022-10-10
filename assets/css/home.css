@@ -440,6 +440,11 @@ circle:hover {
   padding-top: 82.9%;
 }
 
+@media only screen and (max-width: 576px) {
+  .imageFrameDiv {
+    margin-top: 50%;
+  }
+}
 .imgFrame {
   width: 100%;
   height: 100%;
@@ -485,7 +490,6 @@ circle:hover {
 
 .footerLogo {
   height: 100%;
-  width: 100%;
 }
 
 .emailContact,
@@ -513,6 +517,35 @@ circle:hover {
   padding-top: 100px;
 }
 
+@media only screen and (max-width: 992px) {
+  .footerTextDiv {
+    padding-top: 10.3%;
+    color: #f7f7f3;
+  }
+  .scheduleCallText {
+    padding-top: 10%;
+  }
+  .contactInfo {
+    padding-top: 5%;
+  }
+  .emailContact,
+.numberContact,
+.contactUs {
+    margin-top: 20px;
+  }
+  .emailContactLink,
+.numberContactLink,
+.contactUsLink {
+    font-size: 16px;
+  }
+  .footerIcons {
+    padding-top: 5%;
+    margin-top: 22px;
+  }
+  .footerIcons i {
+    font-size: 18px;
+  }
+}
 .footerSubDiv {
   padding-top: 5.7%;
 }
