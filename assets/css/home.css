@@ -391,10 +391,12 @@ circle:hover {
 	height: cover;
 	width: cover;
 } */
+.contentForServices {
+  justify-content: center;
+}
+
 .designTextContent {
   font-size: 32px;
-  margin-top: 80px;
-  margin-right: 60px;
   vertical-align: middle;
 }
 
