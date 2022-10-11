@@ -1,8 +1,11 @@
 /* Loader */
 /* $("header, main, footer").fadeOut(1000); */
+$("header, main, footer").css({ display: "none" });
+
 $(window).on("load", function () {
 	$(".loaderDiv").fadeOut(1000);
-	$("").fadeIn(1000);
+	$("header, main, footer").css({ display: "block" });
+	$("header, main, footer").fadeIn(1000);
 });
 
 gsap.registerPlugin(ScrollTrigger);

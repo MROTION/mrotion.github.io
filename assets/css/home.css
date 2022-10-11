@@ -393,11 +393,12 @@ circle:hover {
 } */
 .contentForServices {
   justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .designTextContent {
   font-size: 32px;
-  vertical-align: middle;
 }
 
 .designTextContentBars {
