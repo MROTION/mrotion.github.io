@@ -15,7 +15,7 @@
 }
 
 body {
-	width: 100vw;
+	max-width: 100%;
 	overflow-x: hidden !important;
 	margin: 0;
 	padding: 0;
@@ -150,10 +150,24 @@ body {
 	}
 }
 
+@media only screen and (max-width: 1200px) {
+	#createText,
+	#mroteText {
+		font-size: 110px;
+	}
+}
+
 @media only screen and (max-width: 992px) {
 	#createText,
 	#mroteText {
 		font-size: 100px;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	#createText,
+	#mroteText {
+		font-size: 80px;
 	}
 }
 
@@ -447,6 +461,7 @@ circle:hover {
 	background-size: 100% 100%;
 	/* margin-top: 28%; */
 	padding: 100px 0px 28px 0px;
+	width: 100%;
 }
 
 .imageFrameDiv {

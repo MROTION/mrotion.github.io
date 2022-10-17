@@ -1,14 +1,21 @@
+gsap.registerPlugin(ScrollTrigger);
+
 /* Loader */
 /* $("header, main, footer").fadeOut(1000); */
-$("header, main, footer").css({ display: "none" });
+/* $("header, main, footer").css({ display: "none" }); */
 
 $(window).on("load", function () {
 	$(".loaderDiv").fadeOut(1000);
-	$("header, main, footer").css({ display: "block" });
-	$("header, main, footer").fadeIn(1000);
+	/* $("header, main, footer").css({ display: "block" }); */
+	/* $("header, main, footer").fadeIn(1000); */
 });
 
-gsap.registerPlugin(ScrollTrigger);
+/* No Horizontal Scroll */
+/* var scrollEventHandler = function () {
+	window.scroll(0, window.pageYOffset);
+}; */
+
+/* window.addEventListener("scroll", scrollEventHandler, false); */
 
 /* Create, Text */
 
@@ -276,7 +283,8 @@ gsap.to(".impact", {
 	color: "#2c2d2d",
 });
 
-var size = [window.width, window.height]; //public variable.
+/* var size = [window.width, window.height]; //public variable.
 $(window).resize(function () {
 	window.resizeTo(size[0], size[1]);
 });
+ */

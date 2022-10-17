@@ -1,62 +1,63 @@
 /* Fonts */
 @font-face {
-  font-family: acumin;
-  src: url(../fonts/acumin.ttf);
+	font-family: acumin;
+	src: url(../fonts/acumin.ttf);
 }
 @font-face {
-  font-family: acumin-thin;
-  src: url(../fonts/acumin-wide-thin.ttf);
+	font-family: acumin-thin;
+	src: url(../fonts/acumin-wide-thin.ttf);
 }
 @font-face {
-  font-family: acumin-bold;
-  src: url(../fonts/acumin.ttf);
-  font-style: wide bold;
+	font-family: acumin-bold;
+	src: url(../fonts/acumin.ttf);
+	font-style: wide bold;
 }
+html,
 body {
-  width: 100vw;
-  overflow-x: hidden !important;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f3;
-  font-family: acumin;
+	max-width: 100%;
+	overflow-x: hidden !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #f7f7f3;
+	font-family: acumin;
 }
 
 .vh {
-  height: 100vh;
+	height: 100vh;
 }
 
 .vw {
-  width: 100vw;
+	width: 100vw;
 }
 
 .navLogoDiv {
-  padding-top: 59px;
+	padding-top: 59px;
 }
 
 .navLinks {
-  padding-top: 67px;
+	padding-top: 67px;
 }
 
 .servicesLink,
 .connectLink {
-  color: #000;
-  font-family: acumin-thin;
-  text-decoration: none;
-  font-size: 20px;
+	color: #000;
+	font-family: acumin-thin;
+	text-decoration: none;
+	font-size: 20px;
 }
 
 .servicesLink {
-  margin-right: 64px;
+	margin-right: 64px;
 }
 
 /* Loader */
 .loaderDiv {
-  background-color: #2c2d2d;
-  position: absolute;
+	background-color: #2c2d2d;
+	position: absolute;
 }
 
 .loader {
-  margin-top: 60%;
+	margin-top: 60%;
 }
 
 #fade7Text,
@@ -65,170 +66,182 @@ body {
 #fade4Text,
 #fade3Text,
 #fade2Text {
-  opacity: 1;
-  -webkit-animation: title 2s infinite ease;
-  animation: title 2s infinite ease;
+	opacity: 1;
+	-webkit-animation: title 2s infinite ease;
+	animation: title 2s infinite ease;
 }
 
 @-webkit-keyframes title {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 @keyframes title {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 /* Hero Section */
 #Hero {
-  background: url(../media/home/hero/heroBg.svg);
-  background-size: 100%;
-  height: 81vh;
-  background-repeat: no-repeat;
-  margin-top: 57.77px;
+	background: url(../media/home/hero/heroBg.svg);
+	background-size: 100%;
+	height: 81vh;
+	background-repeat: no-repeat;
+	margin-top: 57.77px;
 }
 
 .craftingDreams {
-  margin-top: 20%;
+	margin-top: 20%;
 }
 
 .createMroteDiv {
-  margin-top: 51px;
+	margin-top: 51px;
 }
 
 #createText {
-  transform: translateX(-2000px);
-  font-size: 150px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #2c2c2d;
-  color: #f7f7f3;
-  font-weight: 382;
+	transform: translateX(-2000px);
+	font-size: 150px;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #2c2c2d;
+	color: #f7f7f3;
+	font-weight: 382;
 }
 
 #mroteText {
-  transform: translateX(2000px);
-  font-size: 150px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #2c2c2d;
-  color: #f7f7f3;
-  font-weight: 382;
+	transform: translateX(2000px);
+	font-size: 150px;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #2c2c2d;
+	color: #f7f7f3;
+	font-weight: 382;
 }
 
 @media only screen and (max-width: 1400px) {
-  #createText,
-#mroteText {
-    font-size: 130px;
-  }
+	#createText,
+	#mroteText {
+		font-size: 130px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	#createText,
+	#mroteText {
+		font-size: 110px;
+	}
 }
 @media only screen and (max-width: 992px) {
-  #createText,
-#mroteText {
-    font-size: 100px;
-  }
+	#createText,
+	#mroteText {
+		font-size: 100px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	#createText,
+	#mroteText {
+		font-size: 80px;
+	}
 }
 .mrotionSubtext {
-  margin-top: 13.5%;
+	margin-top: 13.5%;
 }
 
 .mrotionSubtext2 {
-  margin-top: 7.7%;
+	margin-top: 7.7%;
 }
 
 /* Circle */
 #elipses {
-  margin-top: 23.5%;
+	margin-top: 23.5%;
 }
 
 #elipses path:hover {
-  fill: #2c2d2d;
-  transition: all 0.3s;
+	fill: #2c2d2d;
+	transition: all 0.3s;
 }
 
 circle {
-  fill: #f7f7f3;
-  transition: all 0.3s;
+	fill: #f7f7f3;
+	transition: all 0.3s;
 }
 
 circle:hover {
-  fill: #2c2d2d;
-  transition: all 0.3s;
+	fill: #2c2d2d;
+	transition: all 0.3s;
 }
 
 /* Connect Section */
 #Connect {
-  margin-top: 13.5%;
+	margin-top: 13.5%;
 }
 
 .commitText,
 .connectText {
-  margin-top: 7%;
+	margin-top: 7%;
 }
 
 .connectText a {
-  text-decoration: none;
-  color: #2c2c2d;
+	text-decoration: none;
+	color: #2c2c2d;
 }
 
 .connectText b {
-  transition: all 0.3s;
-  cursor: pointer;
+	transition: all 0.3s;
+	cursor: pointer;
 }
 
 .connectText b:hover {
-  transition: all 0.3s;
-  color: #195194;
+	transition: all 0.3s;
+	color: #195194;
 }
 
 .connectPageLinkDiv {
-  margin-top: 20.1%;
+	margin-top: 20.1%;
 }
 
 .connectPageLink {
-  color: #2c2c2d;
-  text-decoration: none;
-  font-size: 32px;
-  font-family: acumin-thin;
+	color: #2c2c2d;
+	text-decoration: none;
+	font-size: 32px;
+	font-family: acumin-thin;
 }
 
 .connectPageLink:hover {
-  color: #2c2c2d;
+	color: #2c2c2d;
 }
 
 .connectPageLink i {
-  margin-left: 2.2%;
-  position: relative;
-  transform: translateY(20px);
+	margin-left: 2.2%;
+	position: relative;
+	transform: translateY(20px);
 }
 
 /* Services Section */
 #Services {
-  margin-top: 22.6%;
-  /* cursor: none; */
+	margin-top: 22.6%;
+	/* cursor: none; */
 }
 
 /* .cursor {
@@ -244,70 +257,70 @@ circle:hover {
 	z-index: 100;
 } */
 .servicesHeaders {
-  background: url(../media/services/servicesBg1.svg);
-  background-repeat: no-repeat;
-  background-size: 100% 99%;
-  background-position: left;
-  /* height: 76.4vh; */
+	background: url(../media/services/servicesBg1.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 99%;
+	background-position: left;
+	/* height: 76.4vh; */
 }
 
 .servicesText {
-  margin-top: 5.1%;
-  font-size: 24px;
-  color: #f7f7f3;
+	margin-top: 5.1%;
+	font-size: 24px;
+	color: #f7f7f3;
 }
 
 .stepsText {
-  margin-top: 14.3%;
-  color: #f7f7f3;
+	margin-top: 14.3%;
+	color: #f7f7f3;
 }
 
 .mroteText {
-  color: #f7f7f3;
-  font-size: 68px;
-  font-family: acumin-bold;
-  margin-top: 6.7%;
+	color: #f7f7f3;
+	font-size: 68px;
+	font-family: acumin-bold;
+	margin-top: 6.7%;
 }
 
 .mrotedText,
 .mrotionedText {
-  color: #f7f7f3;
-  font-size: 68px;
-  font-family: acumin-bold;
-  margin-top: 4.5%;
+	color: #f7f7f3;
+	font-size: 68px;
+	font-family: acumin-bold;
+	margin-top: 4.5%;
 }
 
 .designText {
-  margin-top: 80px;
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  cursor: pointer;
+	margin-top: 80px;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	cursor: pointer;
 }
 
 .devText,
 .brandingText,
 .marketingText {
-  font-size: 28px;
-  margin-top: 65px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  cursor: pointer;
+	font-size: 28px;
+	margin-top: 65px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	cursor: pointer;
 }
 
 .designBar,
 .devBar,
 .brandingBar,
 .marketingBar {
-  height: 10px;
-  width: 0%;
-  background-color: #195194;
-  border-radius: 10px;
-  transform: translateY(-15px);
+	height: 10px;
+	width: 0%;
+	background-color: #195194;
+	border-radius: 10px;
+	transform: translateY(-15px);
 }
 
 #integration {
-  margin-top: 20.9%;
+	margin-top: 20.9%;
 }
 
 /* #Services svg {
@@ -341,50 +354,50 @@ circle:hover {
 }
  */
 .frames {
-  margin-top: 15.4%;
+	margin-top: 15.4%;
 }
 
 .frms {
-  margin-top: 15.4%;
+	margin-top: 15.4%;
 }
 
 .mettup {
-  margin-top: 21.7%;
+	margin-top: 21.7%;
 }
 
 .digitalise {
-  margin-top: 20.2%;
+	margin-top: 20.2%;
 }
 
 .sec1 {
-  margin-top: 82.8%;
+	margin-top: 82.8%;
 }
 
 .sec2 {
-  margin-top: 40.3%;
+	margin-top: 40.3%;
 }
 
 .foote {
-  background-image: url(../media/home/frames/Union.svg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding: 30px;
+	background-image: url(../media/home/frames/Union.svg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 30px;
 }
 
 .rower {
-  margin-top: 27.6%;
+	margin-top: 27.6%;
 }
 
 .linksFoot {
-  text-decoration: none;
-  color: #f7f7f3;
-  transition: all 0.3s;
+	text-decoration: none;
+	color: #f7f7f3;
+	transition: all 0.3s;
 }
 
 .linksFoot:hover {
-  color: #f7f7f3;
-  text-decoration: none;
-  transition: all 0.3s;
+	color: #f7f7f3;
+	text-decoration: none;
+	transition: all 0.3s;
 }
 
 /* #createText {
@@ -392,169 +405,170 @@ circle:hover {
 	width: cover;
 } */
 .contentForServices {
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 }
 
 .designTextContent {
-  font-size: 32px;
+	font-size: 32px;
 }
 
 .designTextContentBars {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .text p {
-  font-size: 110px;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: black;
-  color: #f7f7f3;
-  line-height: 120px;
+	font-size: 110px;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: black;
+	color: #f7f7f3;
+	line-height: 120px;
 }
 
 .digitalise {
-  text-align: right;
+	text-align: right;
 }
 
 @media only screen and (max-width: 576px) {
-  .text p {
-    font-size: 75px;
-  }
+	.text p {
+		font-size: 75px;
+	}
 }
 /* We are Section */
 .weAreText {
-  font-size: 48px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #2c2c2d;
-  color: #f7f7f3;
+	font-size: 48px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #2c2c2d;
+	color: #f7f7f3;
 }
 
 /* Footer Section */
 #Footer {
-  background: url(../media/footerBg.svg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* margin-top: 28%; */
-  padding: 100px 0px 28px 0px;
+	background: url(../media/footerBg.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* margin-top: 28%; */
+	padding: 100px 0px 28px 0px;
+	width: 100%;
 }
 
 .imageFrameDiv {
-  padding-top: 82.9%;
+	padding-top: 82.9%;
 }
 
 @media only screen and (max-width: 576px) {
-  .imageFrameDiv {
-    margin-top: 50%;
-  }
+	.imageFrameDiv {
+		margin-top: 50%;
+	}
 }
 .imgFrame {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .footerTextDiv {
-  padding-top: 35.3%;
-  color: #f7f7f3;
+	padding-top: 35.3%;
+	color: #f7f7f3;
 }
 
 .footerText {
-  font-family: acumin;
-  font-style: italic;
+	font-family: acumin;
+	font-style: italic;
 }
 
 .startQuotes,
 .endQuotes {
-  transform: translateY(-10px);
-  height: 30px;
-  width: 30px;
+	transform: translateY(-10px);
+	height: 30px;
+	width: 30px;
 }
 
 .ceoText {
-  margin-top: 15px;
-  font-family: acumin-thin;
-  font-size: 12px;
+	margin-top: 15px;
+	font-family: acumin-thin;
+	font-size: 12px;
 }
 
 .scheduleCallText {
-  padding-top: 25.1%;
-  color: #f7f7f3;
-  font-size: 32px;
-  font-family: acumin-thin;
+	padding-top: 25.1%;
+	color: #f7f7f3;
+	font-size: 32px;
+	font-family: acumin-thin;
 }
 
 .callArrow {
-  padding-left: 30px;
+	padding-left: 30px;
 }
 
 .footerLogoDiv {
-  margin-top: 15.6%;
+	margin-top: 15.6%;
 }
 
 .footerLogo {
-  height: 100%;
+	height: 100%;
 }
 
 .emailContact,
 .numberContact,
 .contactUs {
-  margin-top: 32px;
+	margin-top: 32px;
 }
 
 .emailContactLink,
 .numberContactLink,
 .contactUsLink {
-  color: #f7f7f3;
-  text-decoration: none;
-  font-size: 22px;
-  font-family: acumin-thin;
+	color: #f7f7f3;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: acumin-thin;
 }
 
 .footerIcons {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
 .footerIcons i {
-  color: #f7f7f3;
-  font-size: 25px;
-  padding-top: 100px;
+	color: #f7f7f3;
+	font-size: 25px;
+	padding-top: 100px;
 }
 
 @media only screen and (max-width: 992px) {
-  .footerTextDiv {
-    padding-top: 10.3%;
-    color: #f7f7f3;
-  }
-  .scheduleCallText {
-    padding-top: 10%;
-  }
-  .contactInfo {
-    padding-top: 5%;
-  }
-  .emailContact,
-.numberContact,
-.contactUs {
-    margin-top: 20px;
-  }
-  .emailContactLink,
-.numberContactLink,
-.contactUsLink {
-    font-size: 16px;
-  }
-  .footerIcons {
-    padding-top: 5%;
-    margin-top: 22px;
-  }
-  .footerIcons i {
-    font-size: 18px;
-  }
+	.footerTextDiv {
+		padding-top: 10.3%;
+		color: #f7f7f3;
+	}
+	.scheduleCallText {
+		padding-top: 10%;
+	}
+	.contactInfo {
+		padding-top: 5%;
+	}
+	.emailContact,
+	.numberContact,
+	.contactUs {
+		margin-top: 20px;
+	}
+	.emailContactLink,
+	.numberContactLink,
+	.contactUsLink {
+		font-size: 16px;
+	}
+	.footerIcons {
+		padding-top: 5%;
+		margin-top: 22px;
+	}
+	.footerIcons i {
+		font-size: 18px;
+	}
 }
 .footerSubDiv {
-  padding-top: 5.7%;
+	padding-top: 5.7%;
 }
 
 .footerSub {
-  color: #f7f7f3;
-  font-size: 12px;
-  font-family: acumin-thin;
-}/*# sourceMappingURL=home.css.map */
+	color: #f7f7f3;
+	font-size: 12px;
+	font-family: acumin-thin;
+} /*# sourceMappingURL=home.css.map */
